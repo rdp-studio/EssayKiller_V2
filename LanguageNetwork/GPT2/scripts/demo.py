@@ -177,7 +177,7 @@ with tf.compat.v1.Session(config=tf_config, graph=tf.Graph()) as sess:
 
     saver = tf.compat.v1.train.Saver()
     saver.restore(sess, args.ckpt_fn)
-    print('模型加载好啦！🍺Bilibili干杯🍺 \n')
+    print('模型加载好啦！\n')
     print('现在将你的作文题精简为一个句子，粘贴到这里:⬇️，然后回车')
     print("\n")
     print("**********************************************作文题目**********************************************\n")
